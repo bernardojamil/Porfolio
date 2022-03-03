@@ -1,0 +1,183 @@
+body {
+
+}
+
+/* ================================================================ title Section ============================================== */
+
+#title-section {
+  font-family: 'League Spartan', sans-serif;
+  background-color: gray;
+  padding: 5% 10% 0%;
+}
+
+/* color selection */
+
+
+/* ========= NAvBAR =========== */
+
+
+.nav-link {
+  font-size: 1.5rem;
+  margin-right: 100px;
+}
+
+
+/* introduction text */
+.intro-cont {
+  width: 70%;
+  margin: auto;
+  padding: 10% 0;
+}
+
+
+.intro-text {
+  color: white;
+  font-size: 2.2rem;
+
+}
+
+.p-title {
+  font-size: 1.1rem;
+}
+
+.jampic {
+  margin-left: 35%;
+  height: 600px;
+  width: 500px
+}
+
+.name {
+  color: white;
+  font-weight: 600;
+  font-size: 6.5rem;
+  line-height: normal;
+  width: 25%;
+  position: absolute;
+  top: 450px;
+  left: 350px;
+
+}
+
+
+
+/* ============================================FEatures SEction ===================================================== */
+#features {
+  padding: 5% 14% 7%;
+  background-color: #2C394B;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feat-text-cont {
+  width: 80%;
+  margin: auto;
+}
+
+.feat-h2 {
+  color: #79B4B7;
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 65%;
+
+}
+
+.expclient-text {
+  color: #D9D9DD;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.prob-ihave {
+  color: #D9D9DD;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 38px;
+}
+
+.i-enjoy {
+  color: white;
+  font-size: 2.2rem;
+  line-height: 45px;
+}
+
+
+
+/* ============================================Contact SEction ===================================================== */
+
+#contact {
+  padding: 5% 10%;
+}
+
+
+
+
+/* ================================= media querry =====================================================*/
+
+@media (max-width: 1552px) {
+  .name {
+    top: 430px;
+    left: 250px;
+  }
+
+}
+
+@media (max-width: 1160px) {
+  .name {
+    top: 420px;
+    left: 180px;
+  }
+
+  .intro-cont {
+    margin-right: 0;
+  }
+
+}
+
+@media (max-width: 1552px) {
+  .name {
+    top: 430px;
+    left: 250px;
+  }
+
+}
+
+@media (max-width: 990px) {
+  .name {
+    top: 390px;
+    left: 370px;
+  }
+
+  .intro-cont {
+    margin-right: 0;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    width: 49%
+  }
+
+  .navbar {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .feat-h2 {
+    padding-top: 10%;
+
+  }
+
+  .feat-text-cont {
+    padding: 10% 0
+  }
+
+  .jampic {
+    position: absolute;
+    right: 180px;
+  }
+
+  .row {
+    padding-bottom: 160px;
+  }
+
+
+}
